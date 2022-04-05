@@ -1,0 +1,67 @@
+[
+    {
+      "_id": "1",
+      "name": "Alex",
+      "image": "https://i.ibb.co/sgmn4Fm/bohemian.jpg",
+      "review": "It is a very good product",
+  
+      "category": "showpieceproducts",
+      "price": 3250.99,
+      "rating": 4
+    },
+    {
+      "_id": "2",
+      "name": "Alena",
+      "image": "https://i.ibb.co/CHV4TWS/cheerful-curly.jpg",
+      "review": "Best product I had ever used",
+      "brand": "nobrand",
+      "category": "woodproducts",
+      "price": 3050.99,
+      "rating": 4.5
+    },
+    {
+      "_id": "3",
+      "name": "Ema",
+      "image": "https://i.ibb.co/jw4dfsZ/young-woman.jpg",
+      "review": "Good features",
+      "brand": "nobrand",
+      "category": "showpieceproducts",
+      "price": 3500.99,
+      "rating": 4
+    },
+    {
+      "_id": "4",
+      "name": "Mashy",
+      "image": "https://i.ibb.co/J7N5b59/satisfied-customer.jpg",
+      "review": "Unbelieveable!",
+      "brand": "nobrand",
+      "category": "juteproducts",
+      "price": 50.99,
+      "rating": 4
+     },
+
+    {
+      "_id": "6",
+      "name": "Rajesh",
+      "image": "https://i.ibb.co/7N9Ryqk/handsome-confident-man.jpg",
+      "review": "Not bad ",
+      "brand": "nobrand",
+      "category": "woodproducts",
+      "price": 102.99,
+      "countInStock": 10,
+      "rating": 4
+    
+    },
+    {
+      "_id": "7",
+      "name": "Jucy",
+      "image": "https://i.ibb.co/jwQmtQp/stylish-summer-girl.jpg",
+      "review": "It's nice",
+      "brand": "nobrand",
+      "category": "juteproducts",
+      "price": 13.99,
+      "countInStock": 4,
+      "rating": 4.5
+        }
+  ]
+
