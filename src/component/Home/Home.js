@@ -26,15 +26,17 @@ const Home = () => {
 
 
 
-            {/* {
+            
+        </div>
+        <h1>This is review item</h1>
+        <div className='review-container'>
+           
+            {
                users.map(user=><Review 
                 key={user._id}
                user={user}>    
                </Review>) 
-            }  */} 
-        </div>
-        <div>
-            <h1>This is review item</h1>
+            } 
         </div>
         
     </div>

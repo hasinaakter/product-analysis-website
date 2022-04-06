@@ -1,8 +1,18 @@
 
-.user-reviews {
+.review-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
-    margin-top: 20px;
+    /* margin: 20px 30px; */
+    /* margin-left: 50px; */
+    margin: 50px;
     
+}
+img{
+    border-radius: 10px 10px 0 0;
+    border: 0 ;
+}
+.review{
+border: 3px solid rgb(194, 190, 190);
+border-radius: 10px;
 }
