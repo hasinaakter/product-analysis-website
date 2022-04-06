@@ -1,7 +1,7 @@
 import React from 'react';
 import './Review.css'
 const Review = (props) => {
-    // console.log(props);
+     console.log(props);
  const {name,image,rating,review} = props.user;
 // const [users, setUsers] = useUsersData();
 

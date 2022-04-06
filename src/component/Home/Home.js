@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <h1>See the Reviews!</h1>
         <div className='review-container'>
-           
+           <h1>length:{users.length}</h1>
             {
                users.map(user=><Review 
                 key={user._id}
