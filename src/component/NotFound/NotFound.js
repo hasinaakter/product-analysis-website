@@ -2,8 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
-            <h1>404 ERROR</h1>
+        <div className='error'>
+            <img src="./images/404error.jpg" height='450' alt=""/>
         </div>
     );
 };
