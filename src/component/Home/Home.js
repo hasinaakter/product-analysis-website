@@ -28,7 +28,7 @@ const Home = () => {
 
             
         </div>
-        <h1>This is review item</h1>
+        <h1>See the Reviews!</h1>
         <div className='review-container'>
            
             {
