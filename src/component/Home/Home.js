@@ -1,13 +1,11 @@
 import React from 'react';
 import useUsersData from '../../hooks/Users/Users';
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 import './Home.css'
  
-
 const Home = () => {
     const[users,setUsers] = useUsersData();
-
-    // const [cart, setCart] = useState([]);
 
     return (
        
@@ -18,7 +16,7 @@ const Home = () => {
               <p>Everything about the Ideapad 320 is designed to simplify your 
                 life. It will handle any task with ease,
                  thanks to powerful processing and discrete graphics options.</p>
-                 <button> Live Demo </button>
+                 <button className='demo-btn'> Live Demo </button>
            </div>           
            <div  className='laptop-images'>
             <img src='images/lenovo-ideapad-320.jpg' alt='' />
@@ -37,7 +35,7 @@ const Home = () => {
                </Review>) 
             } 
         </div>
-        
+    <Link to="/reviews" className='see-more-btn'>See More Reviews</Link>
     </div>
        
       

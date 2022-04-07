@@ -11,7 +11,7 @@ const Review = (props) => {
  <div>
       <img src={image} height='250' width='300' alt=" "/>
  </div>
- <div>
+ <div className='review-info'>
       <h3>Name:{name}</h3>
       <p>Review: {review}</p>
       <p>Rating: {rating}</p>

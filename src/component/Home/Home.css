@@ -1,10 +1,21 @@
 .container{
-    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(231, 230, 230); */
+    margin-bottom: 100px;
 }
 .home-container{
 display: flex;
 align-items: center;
 justify-content: space-between;
+
+}
+.demo-btn{
+    text-decoration:none ;
+    color: azure;
+    background-color: rgb(60, 60, 246);
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
 
 }
 .laptop-details {
@@ -13,4 +24,22 @@ justify-content: space-between;
  margin-left: 30px;
  font-size:20px;
  color: black;
+}
+.see-more-btn{
+    text-decoration:none ;
+    color: azure;
+    background-color: rgb(60, 60, 246);
+    padding:  10px 20px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+h1{
+    color:rgb(24, 24, 187);
+    text-decoration:underline;
+
+}
+h3{
+    color:rgb(24, 24, 187);
+  
 }

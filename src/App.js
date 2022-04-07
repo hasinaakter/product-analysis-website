@@ -3,10 +3,10 @@ import './App.css';
 import About from './component/About/About';
 import Blog from './component/Blog/Blog';
 import Dashboard from './component/Dashboard/Dashboard';
+import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
-import Review from './component/Review/Review';
 import Reviews from './component/Reviews/Reviews';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
       
     </div>
   );

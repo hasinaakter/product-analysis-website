@@ -1,18 +1,19 @@
 
 .question{
-    box-sizing: border-box;
     color: black;
+    border: 2px solid rgba(231, 231, 231, 0.77);
+    margin:20px 30px;
+    border-radius: 10px;
+
 }
 h2{
 color: rgb(255, 159, 34);
-margin: 40px;
+padding:20px;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-bottom: 1rem;
-    margin-top: 0;
+.question p {
+    padding: 10px 30px;
+    margin: 10px 20px;
+    color: black;
+   
+
 }
